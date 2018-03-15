@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER "<ull@dbweb.ee>
+MAINTAINER "ull <ull@dbweb.ee>
 
 RUN apk -U upgrade && apk add \
     bash \
