@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.9
 MAINTAINER "ull <ull@dbweb.ee>
 
 RUN apk -U upgrade && apk add \
