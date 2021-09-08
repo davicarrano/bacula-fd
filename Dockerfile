@@ -5,7 +5,7 @@ RUN apk -U upgrade && apk add \
     bash \
     bacula-client
     
-RUN mkdir /etc/bacula /var/lib/bacula
+RUN mkdir -p /etc/bacula /var/lib/bacula
 
 ADD bacula-fd.conf /etc/bacula/bacula-fd.conf
 ADD bacula-fd.conf /etc/bacula/bacula-fd.conf.orig
