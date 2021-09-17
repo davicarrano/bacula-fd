@@ -44,7 +44,7 @@ CONFIG_VARS=(
   MON_FD_PASSWORD
 )
 
-if [ -z "${DIR_IP}" ]; then
+if [ -n "${DIR_IP}" ]; then
 	echo "==> Adding DIR_IP to /etc/hosts"
 	echo "${DIR_IP} ${DIR_NAME}" >> /etc/hosts
 fi
